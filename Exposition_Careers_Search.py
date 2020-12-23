@@ -19,7 +19,7 @@ exhibitors_unfiltered = page_soup.findAll("div",{"class":"o-search-results-conta
 individual_exhibitor = exhibitors_unfiltered[0].findAll("div",{"data-entry":""})
 
 #creating a csv
-filename = '.\Desktop\Jobs.csv'
+filename = '.\Desktop\Exhibitor_List.csv'
 f = open(filename, "w", encoding="utf-8")
 #creating titles of each column, note the \n
 headers= "Company Name,Website,Location\n"
